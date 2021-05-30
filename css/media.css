@@ -1,0 +1,413 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Header-Section Start */
+  .header-menu ul {
+    margin-top: 20px;
+  }
+  .header-menu ul li a {
+    padding: 10px 0 !important;
+  }
+  /* Header-Section End */
+  /* Banner-Section Start */
+  .banner_section {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .banner_logo {
+    text-align: center;
+  }
+  .banner_logo img {
+    width: 140px;
+  }
+  .banner_logo .first_p {
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+  .banner_logo .banner_border {
+    margin: 35px auto;
+  }
+  /*  */
+  .banner_free_trial {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .banner_top {
+    background-color: transparent;
+  }
+  .banner_top h3 {
+    color: #fff;
+  }
+  .banner_form form input {
+    background-color: transparent;
+  }
+  .banner_form form .form-control:focus {
+    background-color: transparent;
+  }
+  .banner_form form input::placeholder {
+    color: #86878b;
+  }
+  .banner_form form input:focus::placeholder {
+    color: #fff;
+  }
+  .banner_form form .form-control {
+    border-color: #86878b;
+  }
+  .banner_form form .form-control:hover {
+    border-color: #fff;
+  }
+  .free_trail_button {
+    border-radius: 0 0 2px 2px;
+  }
+  /* Banner-Section End */
+  /* Social-media Start */
+  .social_media_icon ul li a i {
+    padding: 0 5px;
+    font-size: 23px;
+  }
+  /* Social-media End */
+  /* Tab-Section Start */
+  .tab_section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .tab_logo img {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 60%;
+  }
+  .custom_tab_margin {
+    margin-right: 10px !important;
+  }
+  .tab_left .custom_tab {
+    width: 80px;
+    height: 80px;
+  }
+  .tab_content_text h4 {
+    margin-bottom: 25px;
+  }
+  .tab_content_text_p_2 {
+    margin-top: 20px;
+    margin-bottom: 27px;
+  }
+  /* Tab-Section End */
+  /* Sublist-Section Start */
+  .sublist_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sublist_content h4 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .custom_border {
+    margin: 30px auto;
+  }
+  .sublist_content_p_align {
+    text-align: center;
+  }
+  .sublist_title_icon {
+    margin-right: 15px;
+    margin-bottom: 115px;
+  }
+  /* Sublist-Section End */
+  /* Whythis-Section Start */
+  .whythis_secttion {
+    padding: 70px 0;
+  }
+  /* Whythis-Section End */
+  /* Pricing-Section Start */
+  .pricing_section {
+    padding: 60px 0;
+  }
+  .pricing_list {
+    margin-top: 60px;
+  }
+  /* Pricing-Section End */
+  /* Customer-Section start */
+  .customers_section {
+    padding: 50px 0;
+  }
+  .customer_info {
+    margin-left: 50px;
+  }
+  .customer_say::after {
+    display: none;
+  }
+  /* Customer-Section End */
+  /* Customer-Section End */
+  .contact_msg_margin {
+    margin-left: 0;
+  }
+  .contact_mesg textarea {
+    padding: 10px;
+  }
+  /* Contact-Us End */
+  /* Footer-Section Start */
+  .footer_media ul li a i {
+    padding: 5px;
+  }
+  /* Footer-Section End */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header-Section Start */
+  .header-menu ul {
+    margin-top: 20px;
+  }
+  .header-menu ul li a {
+    padding: 10px 0 !important;
+  }
+  /* Header-Section End */
+
+  /* Banner-Section Start */
+  .banner_section {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .banner_logo {
+    text-align: center;
+  }
+  .banner_logo img {
+    width: 140px;
+  }
+  .banner_logo .first_p {
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+  .banner_logo .banner_border {
+    margin: 35px auto;
+  }
+  /*  */
+  .banner_free_trial {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .banner_top {
+    background-color: transparent;
+  }
+  .banner_top h3 {
+    color: #fff;
+  }
+  .banner_form form input {
+    background-color: transparent;
+  }
+  .banner_form form .form-control:focus {
+    background-color: transparent;
+  }
+  .banner_form form input::placeholder {
+    color: #86878b;
+  }
+  .banner_form form input:focus::placeholder {
+    color: #fff;
+  }
+  .banner_form form .form-control {
+    border-color: #86878b;
+  }
+  .banner_form form .form-control:hover {
+    border-color: #fff;
+  }
+  .free_trail_button {
+    border-radius: 0 0 2px 2px;
+  }
+  /* Banner-Section End */
+  /* Social-media Start */
+  .social_media_icon ul li a i {
+    padding: 0 17px;
+    font-size: 35px;
+  }
+  /* Social-media End */
+  /* Tab-Section Start */
+  .tab_section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .tab_logo img {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .custom_tab_margin {
+    margin-right: 40px !important;
+  }
+  .tab_left .custom_tab {
+    width: 90px;
+    height: 90px;
+  }
+  .tab_content_text h4 {
+    margin-bottom: 25px;
+  }
+  .tab_content_text_p_2 {
+    margin-top: 20px;
+    margin-bottom: 27px;
+  }
+  /* Tab-Section End */
+  /* Sublist-Section Start */
+  .sublist_section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  /* Sublist-Section End */
+  /* Whythis-Section Start */
+  .whythis_secttion {
+    padding: 70px 0;
+  }
+  /* Whythis-Section End */
+  /* Pricing-Section Start */
+  .pricing_section {
+    padding: 80px 0;
+  }
+  .pricing_list {
+    margin-top: 80px;
+  }
+  /* Pricing-Section End */
+  /* Customer-Section start */
+  .customers_section {
+    padding: 70px 0;
+  }
+  .customer_say::after {
+    bottom: -146px;
+  }
+  /* Customer-Section End */
+  .contact_msg_margin {
+    margin-left: 0;
+  }
+  /* Contact-Us End */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header-Section Start */
+  .header-menu ul {
+    margin-top: 20px;
+  }
+  .header-menu ul li a {
+    padding: 10px 0 !important;
+  }
+  /* Header-Section End */
+  /* Banner-Section Start */
+  .banner_section {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+  .banner_logo img {
+    margin-bottom: 30px;
+    width: 150px;
+  }
+  .banner_logo .first_p {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  .banner_logo .second_p {
+    letter-spacing: 0;
+  }
+  .banner_free_trial {
+    margin-top: 50px;
+  }
+  .banner_top h3 {
+    font-size: 20px;
+  }
+  .banner_form {
+    padding: 0 5px;
+  }
+  /* Banner-Section End */
+  /* Social-media Start */
+  .social_media_icon ul li a i {
+    font-size: 40px;
+    padding: 0 27px;
+  }
+  /* Social-media End */
+  /* Tab-Section Start */
+  .tab_section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .tab_logo img {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .custom_tab_margin {
+    margin-right: 60px !important;
+  }
+  /* Tab-Section End */
+  /* Sublist-Section Start */
+  .sublist_img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* Sublist-Section End */
+  /* Pricing-Section Start */
+  .pricing_list {
+    margin-top: 100px;
+  }
+  /* Pricing-Section End */
+  /* Customer-Section start */
+  .customer_say::after {
+    bottom: -121px;
+  }
+  /* Customer-Section End */
+  /* Contact-Us Start */
+  .contact_msg_margin {
+    margin-left: 0;
+  }
+  /* Contact-Us End */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Banner-Section Start */
+  .banner_section {
+    padding-top: 100px;
+    padding-bottom: 130px;
+  }
+  .banner_logo img {
+    width: 160px;
+  }
+  .banner_logo .first_p {
+    font-size: 35px;
+    letter-spacing: 0;
+  }
+  .banner_logo .second_p {
+    letter-spacing: 0;
+  }
+  .banner_free_trial {
+    margin-top: 25px;
+  }
+  /* Banner-Section End */
+  /* Tab-Section Start */
+  .custom_tab_margin {
+    margin-right: 50px !important;
+  }
+  /* Tab-Section End */
+  /* Sublist-Section Start */
+  .sublist_img img {
+    margin-top: 55px;
+  }
+  .sublist_content p {
+    font-size: 15px;
+  }
+  /* Sublist-Section End */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Banner-Section Start */
+  .banner_logo .first_p {
+    font-size: 35px;
+  }
+  .banner_logo .second_p {
+    letter-spacing: 1px;
+  }
+  /* Banner-Section End */
+  /* Social-media Start */
+  .social_media_icon ul li a i {
+    padding: 0 27px;
+    font-size: 45px;
+  }
+  /* Social-media End */
+  /* Customer-Section start */
+  .customer_say::after {
+    bottom: -215px;
+  }
+  /* Customer-Section End */
+}

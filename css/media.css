@@ -34,6 +34,9 @@
   .banner_top {
     background-color: transparent;
   }
+  .banner_form {
+    padding: 0 20px;
+  }
   .banner_top h3 {
     color: #fff;
   }
@@ -93,7 +96,7 @@
   /* Sublist-Section Start */
   .sublist_section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
   .sublist_content h4 {
     text-align: center;
@@ -101,6 +104,9 @@
   }
   .custom_border {
     margin: 30px auto;
+  }
+  .sublist_margin_top {
+    margin-top: 0;
   }
   .sublist_content_p_align {
     text-align: center;
@@ -185,6 +191,9 @@
   }
   .banner_top {
     background-color: transparent;
+  }
+  .banner_form {
+    padding: 0 35px;
   }
   .banner_top h3 {
     color: #fff;
@@ -380,9 +389,7 @@
   }
   /* Tab-Section End */
   /* Sublist-Section Start */
-  .sublist_img img {
-    margin-top: 55px;
-  }
+
   .sublist_content p {
     font-size: 15px;
   }

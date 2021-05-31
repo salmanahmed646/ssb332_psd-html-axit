@@ -111,7 +111,7 @@ header {
   transition: 0.3s;
 }
 .banner_logo .banner_button button:hover {
-  color: #86878b;
+  transform: scale(1.1);
 }
 /*  */
 /* banner_free_trial */
@@ -262,6 +262,11 @@ header {
   background-color: #ff9b51;
   color: #fff;
   border-radius: 4px;
+  transition: 0.3s;
+}
+.tab_content_text button:hover {
+  color: #fff;
+  background-color: #000;
 }
 .tab_content_text button:focus {
   box-shadow: none;
@@ -348,6 +353,10 @@ header {
 .why_this_icon i {
   color: #ff9b51;
   font-size: 25px;
+  transition: 0.3s;
+}
+.whythis_item:hover i {
+  transform: scale(1.5);
 }
 .why_this_content h3 {
   margin: 30px 0;
@@ -364,6 +373,7 @@ header {
 }
 .pricing_list {
   margin-top: 120px;
+  transition: 0.3s;
 }
 .pricing_text {
   margin-bottom: 2px;
@@ -398,6 +408,9 @@ header {
 }
 .pricing_info {
   border: 1px solid #ff9b51;
+}
+.pricing_info ul {
+  margin-bottom: 0;
 }
 .pricing_info ul li {
   font-family: OpenSans-Regular;
@@ -484,15 +497,16 @@ header {
 .stylish_design button {
   font-family: OpenSans-SemiBold;
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #ff9b51;
+  color: #fff !important;
+  border: 1px solid #ff9b51;
   width: 135px;
   height: 40px;
   border-radius: 4px;
   margin-top: 35px;
+  transition: 0.3s;
 }
 .stylish_design button:hover {
-  color: #fff;
+  transform: scale(1.1);
 }
 .stylish_design button:focus {
   box-shadow: none;
@@ -558,9 +572,11 @@ header {
   font-family: OpenSans-SemiBold;
   background-color: #ff9b51;
   color: #ffffff;
+  transition: 0.3s;
 }
 .contact_send_button button:hover {
   color: #ffffff;
+  background-color: #000;
 }
 .contact_send_button button:focus {
   box-shadow: none;
@@ -579,8 +595,17 @@ footer {
 }
 .footer_media ul li a i:hover {
   color: #ff9b51;
+  transform: rotate(15deg);
 }
 .footer_text p {
   font-size: 15px;
+}
+.footer_text p a {
+  font-family: OpenSans-Bold;
+  color: #ff9b51;
+  transition: 0.3s;
+}
+.footer_text p a:hover {
+  color: #fff;
 }
 /* Footer-Section End */

@@ -35,7 +35,7 @@
     background-color: transparent;
   }
   .banner_form {
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .banner_top h3 {
     color: #fff;
@@ -120,6 +120,9 @@
   .whythis_secttion {
     padding: 70px 0;
   }
+  .whythis_item {
+    padding: 30px 20px;
+  }
   /* Whythis-Section End */
   /* Pricing-Section Start */
   .pricing_section {
@@ -140,17 +143,23 @@
     display: none;
   }
   /* Customer-Section End */
-  /* Customer-Section End */
+  /* Contact-us- STart */
+  .contact_us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .contact_msg_margin {
     margin-left: 0;
   }
   .contact_mesg textarea {
     padding: 10px;
+    height: auto;
   }
   /* Contact-Us End */
   /* Footer-Section Start */
   .footer_media ul li a i {
     padding: 5px;
+    font-size: 22px;
   }
   /* Footer-Section End */
 }
@@ -260,6 +269,9 @@
   .whythis_secttion {
     padding: 70px 0;
   }
+  .whythis_item {
+    padding: 30px 20px;
+  }
   /* Whythis-Section End */
   /* Pricing-Section Start */
   .pricing_section {
@@ -345,6 +357,11 @@
     margin-bottom: 20px;
   }
   /* Sublist-Section End */
+  /* Whythis-Section Start */
+  .whythis_item {
+    padding: 30px 20px;
+  }
+  /* Whythis-Section End */
   /* Pricing-Section Start */
   .pricing_list {
     margin-top: 100px;
@@ -394,6 +411,11 @@
     font-size: 15px;
   }
   /* Sublist-Section End */
+  /* Whythis-Section Start */
+  .whythis_item {
+    padding: 25px 18px;
+  }
+  /* Whythis-Section End */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -417,4 +439,9 @@
     bottom: -215px;
   }
   /* Customer-Section End */
+  /* Whythis-Section Start */
+  .whythis_item {
+    padding: 30px;
+  }
+  /* Whythis-Section End */
 }
